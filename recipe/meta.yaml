@@ -28,14 +28,8 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-desc
-    - r-glue
-    - r-withr
   run:
     - r-base
-    - r-desc
-    - r-glue
-    - r-withr
 
 test:
   commands:
