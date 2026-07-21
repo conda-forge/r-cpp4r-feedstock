@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cpp4r_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cpp4r/cpp4r_{{ version }}.tar.gz
-  sha256: d2b51d36292519802d8728589870fac483c1edb2b25233b6e6e6723941a8ad7c
+  sha256: ada05a44b6f185a161591d2da668458b396ff12633a02ffd1a7dd12163d5cf77
 
 build:
   number: 0
